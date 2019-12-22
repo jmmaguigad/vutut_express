@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vutut Express Delivery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/images/main_images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/main_images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<!--start header-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-holder">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index-login.html"><img class="logo-img" src="assets/images/main_images/logo-vutut.png"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="border-show">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/images/main_images/avatar.png"/>&nbsp;&nbsp;<span></span>JOHN MANUEL</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="my-orders.html">My Orders</a></li>
+                            <li><a href="my-profile.html">Profile</a></li>
+                            <li><a href="my-vouchers.html">Vouchers</a></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="border-show">
+                        <span class="cart-current-item-number">2</span><a href="#myModal" data-toggle="modal"><img src="assets/images/main_images/shopping-bag.png"/>&nbsp;&nbsp;CART</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>  
+    <!-- start curtain -->
+    <header id="page-top" style="background-image: url(assets/images/main_images/header-image.jpg);background-size: cover;background-position: center;">
+        <div class="container box-holder">
+            <div class="col-md-12">
+                <span class="title-concept fat-title">It's fresh and hot food, fastly delivered</span>
+            </div> 
+            <form class="form-horizontal location-form" role="form" action="restaurants-login.html">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <div class="form-group row">
+                            <div class="col-md-8">
+                                <input type="text" class="textbox-search" id="inputKey" placeholder="Address Here">
+                                <span id="user-navigation" class="locate-user-icon"></span>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="text-resto">Find Restaurants Near You</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>     
+    <!-- /.end curtain -->
+<!-- /.end header -->  
+<!-- start partners section -->
+<section class="container content-wrapper apps-section">
+    <div class="col-md-12">
+        <span class="nobottommargin-withtopmargin fat-title">You prepare the food, we handle the rest</span>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row orange-bg"  style="background-image: url(assets/images/main_images/partners.jpg);background-size: cover;background-position: center;">
+        <div style="border: 1px solid #cecece;background-color:#fff;margin-top:200px;color:#0e0e0e;margin-left:10px;padding:20px;border-radius: 5px;box-shadow:0 2px 28px 0 rgba(0,0,0,0.12);-moz-box-shadow:0 2px 28px 0 rgba(0,0,0,0.12);" class="col-md-6 mobile-apps-text">
+            <h3>List your restaurant on vutut express</h3>
+            <p>Would you like thousands of new customers to taste your amazing food? So would we!</p>
+            <p>It's simple: we list your menu online, help you process orders, pick them up, and deliver them to hungry filipinos - in a heartbeat!</p>
+            <p>Interested? Let's start our partnership today!</p>
+            <button class="col-md-8">GET STARTED</button>
+        </div>        
+    </div>
+</section>
+<!-- ./end partners section -->
+<div class="clearfix"></div>
+<!-- start content -->
+    <section class="container content-wrapper">
+        <div class="col-md-12">
+            <span class="nobottommargin-withtopmargin fat-title">Find Popular Restaurants in Tuguegarao City</span>
+        </div>
+        <div class="row margin-bottom20 margin-top30">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">
+                            <img class="pic-1" src="assets/images/main_restaurants/pancit-batil-patong.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pancit-batil-patong.jpg">
+                            <span class="product-trend-label">NEW</span>
+                        </div> 
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Totoy's Batil Patong</a></h3>
+                        <div class="price">pansit batil patong,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <span class="product-trend-label">FREE DELIVERY</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Jollibee Tanza</a></h3>
+                        <div class="price">fast food,chicken,burgers,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/kusina-cagayana.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/kusina-cagayana.jpg">                        
+                            <span class="product-trend-label">NEW</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Kusina Cagayana</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">
+                            <img class="pic-1" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <span class="product-trend-label">New</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Pampanguena</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin-bottom20 margin-top30">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/pancit-batil-patong.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pancit-batil-patong.jpg">                        
+                            <span class="product-trend-label">NEW</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Totoy's Batil Patong</a></h3>
+                        <div class="price">pansit batil patong,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <span class="product-trend-label">FREE DELIVERY</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Jollibee Tanza</a></h3>
+                        <div class="price">fast food,chicken,burgers,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">    
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/kusina-cagayana.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/kusina-cagayana.jpg">                        
+                            <span class="product-trend-label">NEW</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Kusina Cagayana</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">
+                            <img class="pic-1" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <span class="product-trend-label">New</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Pampanguena</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin-bottom20 margin-top30">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">    
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/pancit-batil-patong.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pancit-batil-patong.jpg">                        
+                            <span class="product-trend-label">NEW</span>                        
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Totoy's Batil Patong</a></h3>
+                        <div class="price">pansit batil patong,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">
+                            <img class="pic-1" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/jollibee-chicken.jpg">
+                            <span class="product-trend-label">FREE DELIVERY</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Jollibee Tanza</a></h3>
+                        <div class="price">fast food,chicken,burgers,filipino</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">
+                            <img class="pic-1" src="assets/images/main_restaurants/kusina-cagayana.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/kusina-cagayana.jpg">
+                            <span class="product-trend-label">NEW</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Kusina Cagayana</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid">
+                    <a href="restaurant-details.html">
+                        <div class="product-image">                        
+                            <img class="pic-1" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <img class="pic-2" src="assets/images/main_restaurants/pampanguena.jpg">
+                            <span class="product-trend-label">New</span>
+                        </div>
+                    </a>
+                    <div class="product-content">
+                        <h3 class="title"><a href="restaurant-details.html">Pampanguena</a></h3>
+                        <div class="price">eat all you can,fast food,salad,filipino</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="append-restos"></div>
+        <div class="row margin-bottom20 margin-top30" style="text-align:center;">
+            <div class="col-md-4 col-sm-12 center-block">
+                <button id="addRestoButton" class="btn btn-warning">Browse More Restaurants</button>
+            </div>
+        </div> -->
+    </section>
+<!-- ./end content -->
+<div class="clearfix"></div>
+<!-- start mobile apps section -->
+    <section class="container content-wrapper apps-section">
+        <div class="col-md-12">
+            <span class="fat-title">Download our apps</span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row orange-bg-lower-height orange-bg">
+            <div class="col-md-6 mobile-apps">
+                <img class="img-mobile-apps" src="assets/images/main_images/mobile-apps.png">
+            </div>
+            <div class="col-md-6 mobile-apps-text">
+                <h3>The food you love in your fingertips...</h3>
+                <p>It's all at your fingertips -- the restaurants you love. Find the right food to suit your mood, and make the first bite last. Go ahead, download us.</p>
+                <a class="btn btn-phone" href="#"><img src="assets/images/main_images/google-play-badge.png"/></a>
+                <a class="btn btn-phone" href="#"><img src="assets/images/main_images/download-on-the-app-store.png"/></a>
+            </div>
+        </div>
+    </section>
+<!-- ./end mobile apps section -->
+<div class="clearfix"></div>
+<!-- start footer -->
+    <hr>
+    <footer class="container content-wrapper">
+        <div class="upper-part row">
+            <div class="col-md-4 copyright-text">
+                &copy; 2019 vututexpress.com.ph.All rights reserved.
+            </div>
+            <div class="special-links col-md-4">
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="frequently-ask.html">FAQ</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>                    
+                </ul>
+            </div>
+            <div class="social-media-icons col-md-4">
+                <ul>
+                    <li><span class="facebook-icon footer-icon"></span></li>
+                    <li><span class="twitter-icon footer-icon"></span></li>
+                    <li><span class="instagram-icon footer-icon"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="upper-part row">
+            <div class="col-md-8">
+                
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </footer>
+<!-- ./end footer -->
+<!-- start of modal -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="index-login.html" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <label>Password</label>
+                            <a href="#myModalForgot" data-toggle="modal" class="pull-right text-muted"><small>Forgot?</small></a>
+                        </div>
+                        
+                        <input type="password" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#myModalRegister" data-toggle="modal" class="login-signup-text pull-left"> Don't have an account? Sign Up</a>
+                    <input type="submit" class="btn btn-warning pull-right" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+<!-- start of modal -->
+<div id="myModalForgot" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Forgot Password</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-warning pull-right" value="Send Password Reset Link">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+<!-- start of modal -->
+<div id="myModalRegister" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Name</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Mobile Number</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#myModalRegister" data-toggle="modal" class="login-signup-text pull-left"> Login now?</a>
+                    <input type="submit" class="btn btn-warning pull-right" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+</body>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- start of custom js script -->
+<script>
+    $(document).ready(function(){
+        $("#addRestoButton").click(function(){
+            $(".append-restos").append("<div class='row margin-bottom20 margin-top30'><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div></div><div class='row margin-bottom20 margin-top30'><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div></div>");
+        });
+        $("#user-navigation").click(function(){
+            $(this).removeClass("locate-user-icon");
+            $(this).addClass("ajax-loader");
+            setTimeout(function(){
+                var items = ['Carig Sur','Carig Norte','Anaffunan','Cataggamman Pardo','Cataggamman Nuevo','Cataggaman Viejo','Bagay','Pallua','Buntun','Ugac Sur','Ugac Norte','Tanza','Balzain'];
+                var item = items[Math.floor(Math.random()*items.length)];
+                $("#inputKey").val(item+" ,Tuguegarao City, Cagayan").fadeIn(5000);
+                $("#user-navigation").removeClass("ajax-loader");
+                $("#user-navigation").addClass("locate-user-icon");                
+            },3000);
+        });
+        $(".facebook-icon").click(function(){
+            document.location.href = "facebook.html";
+        });        
+        $(".twitter-icon").click(function(){
+            document.location.href = "twitter.html";
+        });        
+        $(".instagram-icon").click(function(){
+            document.location.href = "instagram.html";
+        });        
+    });
+</script>
+<!-- ./end custom js script -->
+</html>

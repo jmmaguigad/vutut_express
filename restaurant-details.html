@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vutut Express Delivery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/images/main_images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/main_images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<!--start header-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-holder">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="logo-img" src="assets/images/main_images/logo-vutut.png"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="border-show">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="assets/images/main_images/avatar.png"/>&nbsp;&nbsp;<span></span>JOHN MANUEL</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="my-orders.html">My Orders</a></li>
+                            <li><a href="my-profile.html">Profile</a></li>
+                            <li><a href="my-vouchers.html">Vouchers</a></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="border-show">
+                        <span class="cart-current-item-number">2</span><a href="#myModal" data-toggle="modal"><img src="assets/images/main_images/shopping-bag.png"/>&nbsp;&nbsp;CART</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>  
+    <!-- start curtain -->
+    <header class="resto-details" style="background-image: url(assets/images/main_images/header-image.jpg);background-size: cover;background-position: center;"></header>     
+    <!-- /.end curtain -->
+<!-- /.end header -->  
+<!-- start content -->
+    <section class="container content-wrapper">
+        <div class="row vendor-info">
+            <div class="col-md-12">
+                <div class="vendor-details col-md-6">
+                    <span class="upper-part-title">Jollibee Tanza</span>
+                </div>
+                <div class="tag-info col-md-2">
+                    <a class="multi-tag btn btn-warning">Bundle Promo</a>                    
+                </div>
+                <div class="rating-info col-md-2">
+                    <span class="rating-text">Rating: <b>3.5</b> votes (8/10)</span>
+                </div>
+            </div>
+        </div>
+        <div id="menu-info-header" class="row menu-info">
+            <div class="col-md-12">
+                <div class="menu-details">
+                   <ul>
+                       <li><a href="#best_seller">BEST SELLER</a></li>
+                       <li><a href="#chicken">CHICKEN</a></li>
+                       <li><a href="#burgers">BURGERS</a></li>
+                       <li><a href="#rice_meals">RICE MEALS</a></li>
+                       <li><a href="#meals">MEALS</a></li>
+                       <li><a href="#noodles">NOODLES</a></li>
+                       <li><a href="#desserts_drinks">DESSERTS AND DRINKS</a></li>
+                       <li><a href="#addons">ADD ONS</a></li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu-items">
+        <div class="dish" id="best_seller">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Best Seller</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="chicken" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Chicken</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="burgers" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Burgers</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="rice_meals" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Rice Meals</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="meals" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Meals</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="noodles" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Noodles</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="desserts_drinks" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Desserts and Drinks</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+
+        <div id="addons" class="dish">
+            <div class="dish-category-header">
+                <div class="dish-category">
+                    <h2 class="dish-category-title">Add Ons</h2>
+                </div>
+            </div>
+            <ul class="dish-list">
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row dish-card">
+                            <div class="col-md-3"><img src="assets/images/main_menu/chicken-joy.jpg" style="width:100%" class=""></div>
+                            <div class="dish-info col-md-9">
+                                <h3 class="dish-info-name">1-pc Chickejoy</h3>
+                                <p>The Best Fried Chicken! Crispylicious, Juicylicious! Jollibee's perfectly seasoned fried chicken that's crispy on the outside; tender and juicy on the inside.</p>
+                                <p>PHP 99.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>      
+    </section>
+    <aside class="cart-col">
+        <div class="cart-container">            
+            <h3 class="cart-title">Your Order for <b>Jollibee Tanza</b></h3>      
+            <div class="summary-body">
+                <ul class="summary-list">
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                  
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                    <li>
+                        <div class="row col-md-12 cart-item-summary">
+                            <div class="cart-item col-md-4">
+                                <span class="remove-item"></span>
+                                <span class="cart-item-number">299</span>
+                                <span class="add-item"></span>
+                            </div>
+                            <div class="cart-item-name col-md-4">
+                                <span>1-pc Chickejoy 1-pc Chickejoy</span>
+                            </div>
+                            <div class="cart-item-price col-md-4">
+                                <span>PHP 99.00</span>
+                            </div>                            
+                        </div>
+                    </li>                    
+                </ul>
+            </div>    
+            <div class="order-subtotal">
+                <div class="row subtotal-number">
+                    <span class="col-md-6">Subtotal</span>
+                    <span class="col-md-6 text-right">PHP 10,000.00</span>
+                </div>
+                <div class="row delivery-price">
+                    <span class="col-md-6">Delivery fee</span>
+                    <span class="col-md-6 text-right">PHP 0.00</span>
+                </div>
+                <div class="row total-with-vat">
+                    <span class="col-md-6">Total (incl. VAT)</span>
+                    <span class="col-md-6 text-right">PHP 10,000.00</span>
+                </div>
+            </div>  
+            <a href="checkout.html" class="col-lg-12 btn btn-warning btncheckout">CHECKOUT</a>
+        </div>
+    </aside>
+<!-- ./end mobile apps section -->
+<div class="clearfix"></div>
+<!-- start footer -->
+    <hr>
+    <footer class="container content-wrapper">
+        <div class="upper-part row">
+            <div class="col-md-4 copyright-text">
+                &copy; 2019 vututexpress.com.ph.All rights reserved.
+            </div>
+            <div class="special-links col-md-4">
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="frequently-ask.html">FAQ</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>                    
+                </ul>
+            </div>
+            <div class="social-media-icons col-md-4">
+                <ul>
+                    <li><span class="facebook-icon footer-icon"></span></li>
+                    <li><span class="twitter-icon footer-icon"></span></li>
+                    <li><span class="instagram-icon footer-icon"></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="upper-part row">
+            <div class="col-md-8">
+                
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </footer>
+<!-- ./end footer -->
+<!-- start of modal -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="index-login.html" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <label>Password</label>
+                            <a href="#myModalForgot" data-toggle="modal" class="pull-right text-muted"><small>Forgot?</small></a>
+                        </div>
+                        
+                        <input type="password" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#myModalRegister" data-toggle="modal" class="login-signup-text pull-left"> Don't have an account? Sign Up</a>
+                    <input type="submit" class="btn btn-warning pull-right" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+<!-- start of modal -->
+<div id="myModalForgot" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Forgot Password</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-warning pull-right" value="Send Password Reset Link">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+<!-- start of modal -->
+<div id="myModalRegister" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Name</label>
+                        <input type="email" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Mobile Number</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" required="required">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#myModalRegister" data-toggle="modal" class="login-signup-text pull-left"> Login now?</a>
+                    <input type="submit" class="btn btn-warning pull-right" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+<!-- ./end of modal -->
+</body>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- start of custom js script -->
+<script>
+    $(document).ready(function(){
+        $("#addRestoButton").click(function(){
+            $(".append-restos").append("<div class='row margin-bottom20 margin-top30'><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div></div><div class='row margin-bottom20 margin-top30'><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div><div class='col-md-3 col-sm-6'><div class='product-grid'><div class='product-image'><a href='#'><img class='pic-1' src='assets/images/main_restaurants/pancit-batil-patong.jpg'><img class='pic-2' src='assets/images/main_restaurants/pancit-batil-patong.jpg'></a><span class='product-trend-label'>NEW</span></div><div class='product-content'><h3 class='title'><a href='#'>Totoy's Batil Patong</a></h3><div class='price'>pansit batil patong,filipino</div></div></div></div></div>");
+        });
+        $("#user-navigation").click(function(){
+            $(this).removeClass("locate-user-icon");
+            $(this).addClass("ajax-loader");
+            setTimeout(function(){
+                var items = ['Carig Sur','Carig Norte','Anaffunan','Cataggamman Pardo','Cataggamman Nuevo','Cataggaman Viejo','Bagay','Pallua','Buntun','Ugac Sur','Ugac Norte','Tanza','Balzain'];
+                var item = items[Math.floor(Math.random()*items.length)];
+                $("#inputKey").val(item+" ,Tuguegarao City, Cagayan").fadeIn(5000);
+                $("#user-navigation").removeClass("ajax-loader");
+                $("#user-navigation").addClass("locate-user-icon");                
+            },3000);
+        });        
+    });
+    $(window).load(function(){
+        $('a[href*="#"]').on('click', function(e){
+            e.preventDefault()
+            $('html, body').animate(
+              {
+                scrollTop: $($(this).attr('href')).offset().top - 100,
+              },
+              500,
+              'linear'
+            )
+        });
+    });
+    var fixmeTop = $('.menu-info').offset().top - 50;
+    $(window).scroll(function() {
+        var currentScroll = $(window).scrollTop();
+        if (currentScroll >= fixmeTop) {
+            $('.menu-info').css({
+                position: 'fixed',
+                top: '50px',
+                width: '100%',
+                padding: '13px 0px 0px 0px',
+                border:'1px solid #dedede'
+            });
+        } else {
+            $('.menu-info').css({
+                position: 'static'
+            });
+        }
+    });    
+    $(".facebook-icon").click(function(){
+        document.location.href = "facebook.html";
+    });        
+    $(".twitter-icon").click(function(){
+        document.location.href = "twitter.html";
+    });        
+    $(".instagram-icon").click(function(){
+        document.location.href = "instagram.html";
+    });      
+</script>
+<!-- ./end custom js script -->
+</html>
