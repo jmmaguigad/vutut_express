@@ -954,11 +954,57 @@ color:#0e0e0e;
     font-weight: bolder;
     font-size:14px;
 }
+.restaurant-listing-text{
+    border: 1px solid #cecece;
+    background-color:#fff;
+    margin-top:200px;color:#0e0e0e;
+    margin-left:10px;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow:0 2px 28px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow:0 2px 28px 0 rgba(0,0,0,0.12);
+}
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    header{
+        width:615px!important;
+    }
+    .location-form{
+        margin-left:130px;
+        width:100%;
+        margin-top:260px;
+    }
+    .restaurant-listing-text{
+        margin-left:0;
+    }
+    .orange-bg{
+        width:615px!important;
+    }
+    .navbar-holder{
+        padding-right:0;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .location-form{
+        margin-left:70px;
+        margin-top:220px;
+    }
+    .title-concept{
+        margin-top:120px;
+        margin-left:50px;
+    }
+    .mobile-apps-text{
+        margin-left:0;
+    }
+    .nobottommargin-withtopmargin{
+        margin-top:50px;
+    }
+    .margin-top30{
+        margin-top:0px;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
