@@ -1027,6 +1027,23 @@ color:#0e0e0e;
     .modal-dialog{
         margin:10px auto;
     }
+    .orange-bg-lower-height{
+        height: 150px;
+    }
+    .img-mobile-apps{
+        width: 300px;
+    }
+    .btn-phone img{
+        width:100px;
+        margin-top:-450px;
+        margin-left:300%;
+    }
+    .mobile-apps-text h3{
+        margin-top:-200px;
+        position: absolute;
+        font-size:18px;
+        margin-left:300px;
+    }    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1087,7 +1104,24 @@ color:#0e0e0e;
     }
     .cart-current-item-number{
         margin:20px 0 0 22px;
+    }
+    .orange-bg-lower-height{
+        height:350px;
+    }
+    .img-mobile-apps{
+        width:600px;
+        margin-top:-60px;
     }    
+    .btn-phone img{
+        width:200px;
+        margin:0;
+    }
+    .mobile-apps-text h3{
+        margin-top:0;
+        position:relative;
+        font-size:24px;
+        margin-left:0;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
